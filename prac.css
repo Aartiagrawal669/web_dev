@@ -1,0 +1,42 @@
+.panda5 img{
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 400px;
+    left: 1000px;
+    opacity: 0;
+    animation-name: panda3;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    /* transition: 2s; */
+}
+@keyframes panda3{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cloud4 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    left: 350px;
+    animation-name: cloud4;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@keyframes cloud4{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
